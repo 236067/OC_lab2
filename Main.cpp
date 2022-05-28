@@ -5,7 +5,7 @@ using namespace std;
 struct params {
 	int n;
 	int min = INT_MAX;
-	int max = 0;
+	int max = INT_MIN;
 	double aver;
 	int* arr;
 };
